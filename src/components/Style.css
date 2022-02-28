@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500&display=swap');
+body{
+    margin:0;
+}
+.header{
+    padding-top:10px;
+    background-image:url('../assets/josh-bean-medium-9501ba9f.jpg');
+    margin:0;
+    min-height:98.5vh;
+    background-size:100% 100%;
+    font-family: 'Fredoka', sans-serif;
+}
+.header .menu{
+    display: flex;
+}
+.header .logo{
+    width:40%;
+}
+.header ul{
+    width:80%;
+    display: flex;
+    justify-content: flex-end;
+}
+.header ul li{
+    padding:5px 20px;
+    list-style: none;
+}
+.header ul li a{
+    text-decoration: none;
+    color:#ecf0f1;
+    transition:.3s all ease;
+}
+.header ul li a:hover{
+    color:#c0392b;
+}
+.header .logo img{
+    width:30%;
+    margin-left:15px;
+}
+.header .headerContent{
+    margin-top:10%;
+}
+.header .headerContent h1,p{
+    text-align: center;
+}
+.header .headerContent h1{
+    font-size:50px;
+    color:white;
+    letter-spacing:15px;
+}
+.header .headerContent p{
+    font-size:25px;
+    letter-spacing:5px;
+    color:#95a5a6;
+}
+.header .headerContent button{
+    display: block;
+    margin: auto;
+    margin-top:20px;
+    padding:12px 20px;
+    background:none;
+    border:2px solid #ecf0f1;
+    color:#ecf0f1;
+    cursor: pointer;
+    border-radius:5px;
+    transition:.3s all ease;
+    letter-spacing:5px;
+}
+.header .headerContent button:hover{
+    background-color:#ecf0f1;
+    color:#2c3e50;
+}
+.sliderContent>h2{
+    text-align: center;
+    padding-top:50px;
+    font-size:30px;
+    font-family: 'Fredoka', sans-serif;
+    color: #7f8c8d;
+    letter-spacing:5px;
+}
+.sliderContent p{
+    text-align: center;
+    margin: auto;
+    width:50%;
+    line-height:30px;
+    font-size:20px;
+    color: #7f8c8d;
+    letter-spacing:2px;
+    padding-bottom:20px;
+}
+.sliderMain{
+    position: relative;
+}
+.slider{
+    width:70%;
+    overflow: hidden;
+    margin: auto;
+    height:60vh;
+    margin-bottom:20px;
+    border:30px solid #ecf0f1;
+    border-radius:10px;
+    z-index:1;
+    position: relative;
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.slider img{
+    min-width:100%;
+    height:100%;
+    border-radius:10px;
+}
+.sliderArrow .left{
+    position:absolute;
+    top:50%;
+    left:230px;
+    color: white;
+    z-index:9999;
+    font-size:20px;
+    cursor: pointer;
+    transform:.3s all ease;
+}
+.sliderArrow .right{
+    position:absolute;
+    top:50%;
+    right:230px;
+    color: white;
+    z-index:9999;
+    font-size:20px;
+    cursor: pointer;
+    transform:.3s all ease;
+}
+.sliderArrow .right:hover{
+    color:#34495e;
+}
+.sliderArrow .left:hover{
+    color:#34495e;
+}
+.slider::-webkit-scrollbar {
+    height: 0px !important;
+}
+.posts{
+    background-color:#dfe6e9;
+}
+.posts>h1{
+    text-align: center;
+    padding-top:50px;
+    font-size:30px;
+    font-family: 'Fredoka', sans-serif;
+    color: #34495e;
+    letter-spacing:7px;
+    margin-bottom:20px;
+}
+.allPost{
+    width:90%;
+    margin: auto;
+    padding-bottom:20px;
+    display:flex;
+    flex-grow:3;
+    flex-shrink: 3;
+    flex-wrap: wrap;
+}
+.posts .post{
+    max-width:30%;
+    overflow: hidden;
+    border-radius:10px;
+    font-family: 'Fredoka', sans-serif;
+    background-color: #cdd2d4;
+    margin:1.6%;
+}
+.posts .post img{
+    width:100%;
+    height:200px;
+}
+.posts .post h3{
+    font-size:25px;
+    text-align: center;
+    margin:0;
+    letter-spacing: 3px;
+    color:#95a5a6;
+    margin-top:10px;
+}
+.posts .post p{
+    width:80%;
+    margin:15px auto;
+}
+.posts .post button{
+    display: block;
+    margin: auto;
+    margin-top:20px;
+    padding:12px 20px;
+    background:none;
+    border:2px solid #2c3e50;
+    color:#2c3e50;
+    cursor: pointer;
+    border-radius:5px;
+    transition:.3s all ease;
+    letter-spacing:5px;
+    margin-bottom:20px;
+}
+.posts .post button:hover{
+    background-color:#2c3e50;
+    color:white;
+}
